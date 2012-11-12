@@ -484,6 +484,7 @@ const CGFloat OBMenuBarWindowArrowWidth = 20.0;
     {
         [self setFrameOrigin:[self originForAttachedState]];
     }
+    [[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
     [super makeKeyAndOrderFront:sender];
 }
 
